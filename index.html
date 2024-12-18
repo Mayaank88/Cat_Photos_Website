@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CatPhotosApp</title>
+</head>
+
+<body>
+    <!-- We are building a cat photos app with list and boxes -->
+    <h1> Cat photos </h1>
+    <main>
+        <P> Checkout some cute cat photos. </P>
+        <!-- here we will add an image of a cat then make it clickable -->
+
+        <P> Click here to view <A
+                href="https://www.google.com/search?q=a+cat+photo&oq=&gs_lcrp=EgZjaHJvbWUqCQgBECMYJxjqAjIJCAAQIxgnGOoCMgkIARAjGCcY6gIyCQgCECMYJxjqAjIJCAMQIxgnGOoCMg8IBBAuGCcYxwEY6gIY0QMyCQgFECMYJxjqAjIJCAYQIxgnGOoCMgkIBxAjGCcY6gIyGwgIEC4YQxjHARi0AhjqAhjIAxjRAxiABBiKBdIBCTI4NzdqMGoxNagCCbACAQ&sourceid=chrome&ie=UTF-8"
+                target="_blank">more cat photos.</P>
+        <img src="30 Cats Who Decided To Pretend To Be Penguins.jpg" alt="Cute cat photo">
+        </A>
+
+        <!-- now we're making a cat list using unordered and ordered lists -->
+        <h2>Cat List</h2>
+        <div class="lists">
+            <p>Things cats <em>love</em>:</p>
+            <!-- here 'em' is emphasize or italisize -->
+            <ul>
+                <li>cat nip</li>
+                <li>laser pointers</li>
+                <li>lasagna</li>
+            </ul>
+            <P>Things cat <strong>hate</strong>:</P>
+            <ol>
+                <li> being beat up </li>
+                <li> not eating properly </li>
+                <lI> fever </lI>
+            </ol>
+        </div>
+
+        <!-- now we'll add some radio boxes -->
+        <form action="/submit-cat-photos">
+            <!-- these are the label for the radio boxes  -->
+            <label for="indoor"><input id="indoor" type="radio" name="indoor-outdoor">Indoor</label><br>
+            <label for="outdoor"><input id="outdoor" type="radio" name="indoor-outdoor" checked>Outdoor</label><br>
+
+            <!-- these will be for the checkboxes -->
+            <label for="happy"><input id="happy" type="checkbox" name="personality">Happy</label><br>
+            <label for="lazy"><input id="lazy" type="checkbox" name="personality" checked>Lazy</label><br>
+            <label for="energetic"><input id="energetic" type="checkbox" name="personality">energetic</label><br>
+
+            <!-- now we'll add a submit box and a submit button -->
+
+            <input type="text" placeholder="cat photo url" required>
+            <button type="submit">Submit</button>
+
+        </form>
+    </main>
+</body>
+
+<!-- here we'll add a footer and link the github account in this page -->
+<footer>
+    <p><small>No Copyright - <a href="https://github.com/Mayaank88"> Admins github ac. </a></small></p>
+</footer>
+
+</html>
