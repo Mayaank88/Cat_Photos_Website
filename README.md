@@ -7,7 +7,7 @@ First project uses a basic HTML program to build a "CAT PHOTOS WEBSITE".
 <br>
 -->It has various radio boxes and checkboxes.
 <br>
--->It also contains a subit button for more cat photos submission.
+-->It also contains a submit button for more cat photos submission.
 <br>
 
 Y'all can have a look. I am open for more suggestions to make this better.
